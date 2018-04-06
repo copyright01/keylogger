@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AKKeyLogger", "AKKeyLogger\AKKeyLogger.vcxproj", "{E3096AC8-A351-4080-AAC6-757F63F6038C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AKKLProgram", "AKKLProgram\AKKLProgram.vcxproj", "{303A99D6-0168-492D-A196-C60EFE3F96DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3096AC8-A351-4080-AAC6-757F63F6038C} = {E3096AC8-A351-4080-AAC6-757F63F6038C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3096AC8-A351-4080-AAC6-757F63F6038C}.Debug|x64.ActiveCfg = Debug|x64
+		{E3096AC8-A351-4080-AAC6-757F63F6038C}.Debug|x64.Build.0 = Debug|x64
+		{E3096AC8-A351-4080-AAC6-757F63F6038C}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3096AC8-A351-4080-AAC6-757F63F6038C}.Debug|x86.Build.0 = Debug|Win32
+		{E3096AC8-A351-4080-AAC6-757F63F6038C}.Release|x64.ActiveCfg = Release|x64
+		{E3096AC8-A351-4080-AAC6-757F63F6038C}.Release|x64.Build.0 = Release|x64
+		{E3096AC8-A351-4080-AAC6-757F63F6038C}.Release|x86.ActiveCfg = Release|Win32
+		{E3096AC8-A351-4080-AAC6-757F63F6038C}.Release|x86.Build.0 = Release|Win32
+		{303A99D6-0168-492D-A196-C60EFE3F96DD}.Debug|x64.ActiveCfg = Debug|x64
+		{303A99D6-0168-492D-A196-C60EFE3F96DD}.Debug|x64.Build.0 = Debug|x64
+		{303A99D6-0168-492D-A196-C60EFE3F96DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{303A99D6-0168-492D-A196-C60EFE3F96DD}.Debug|x86.Build.0 = Debug|Win32
+		{303A99D6-0168-492D-A196-C60EFE3F96DD}.Release|x64.ActiveCfg = Release|x64
+		{303A99D6-0168-492D-A196-C60EFE3F96DD}.Release|x64.Build.0 = Release|x64
+		{303A99D6-0168-492D-A196-C60EFE3F96DD}.Release|x86.ActiveCfg = Release|Win32
+		{303A99D6-0168-492D-A196-C60EFE3F96DD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
